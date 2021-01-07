@@ -1,0 +1,88 @@
+:root {
+    /* CSS HEX */
+   --pacific-blue: #2ab7caff;
+   --orange-yellow-crayola: #fed766ff;
+   --gainsboro: #e6e6eaff;
+   --davys-grey: #50514fff;
+   --fire-opal: #f25f5cff;
+   }
+
+
+ * {
+    border: 1px solid black;
+    background-image: url(images/head-background);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+header {
+
+}
+
+.logo {
+    width: 15vw;
+}
+
+.head-container {
+    display: flex;
+}
+
+nav {
+    
+}
+
+.nav-list {
+    list-style: none;
+    display:flex;
+    align-items: flex-end;
+    height: 100%;
+    margin: 0%;
+    width: 100%;
+}
+
+.nav-list-child {
+    margin: 0 5em;
+    align-items: flex-end;
+    font-size: 1.5em;
+}
+
+.name-head {
+    background-image: url(https://www.knau.org/sites/knau/files/201801/Canyon.jpg);
+    text-align: right;
+    text-decoration-color: var(--davys-grey);
+    height: 25vh;
+    opacity: ;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 4.5em;
+    color: var(--orange-yellow-crayola);
+    z-index: 2;
+    opacity: 1;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+
+.list-container {
+    width: 31vw;
+    padding: 1em;
+    height: 45vh;
+}
+
+.list-child {
+    height: 90%;
+    list-style: none;
+    font-size: 1.5em;
+    padding: 0;
+}
+
+.list-item {
+    margin: 5em 0;
+}
