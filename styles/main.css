@@ -83,11 +83,17 @@ nav {
     background-color: var(--davys-grey);
     padding: 0 1em;
     color: var(--gainsboro);
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+
 }
 
 .name-head {
     display: flex;
-    background-image: url(/images/USA.png);
+    background-image: url(/images/Italy.png);
     align-items: flex-end;
     justify-content: flex-end;
     height: 25vh;
@@ -98,7 +104,8 @@ nav {
 
 h1 {
     font-size: 4.5em;
-    color: var(--fire-opal);
+    font-style: italic;
+    color: var(--orange-yellow-crayola);
     z-index: 2;
     opacity: 1;
     margin: 0%;
@@ -133,6 +140,7 @@ main {
 .country-link {
     text-decoration: none;
     color: var(--gainsboro);
+    padding:  0 1.0em;
 }
 
 a:hover {
@@ -146,4 +154,9 @@ footer {
     background-color: var(--gainsboro);
     height: 5vh;
     padding: .3em;
+}
+
+.nav-list-child:hover {
+    background-color: var(--orange-yellow-crayola);
+    opacity: 1.0;
 }
