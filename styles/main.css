@@ -1,3 +1,5 @@
+@import url("container.css");
+
 :root {
     /* CSS HEX */
    --pacific-blue: #2ab7caff;
@@ -21,7 +23,7 @@ p, li {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    /* margin: 16px; */
+    /* margin: 16px; */ 
 }
 
 h2 {
@@ -66,7 +68,6 @@ nav {
 .nav-bar {
     list-style: none;
     display:flex;
-    /* height: 100%; */
     width: 100%;
     margin: 0%;
     align-items: flex-end;
@@ -115,8 +116,7 @@ h1 {
 main {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    height: 50vh;
+    justify-content: space-evenly; /* Removed view height. */
 }
 
 .list-container {
@@ -124,7 +124,7 @@ main {
     padding: 1em;
     height: 45vh;
     text-align: center;
-}
+}   
 
 .list-child {
     height: 90%;
@@ -134,7 +134,7 @@ main {
 }
 
 .list-item {
-    margin: 5em 0;
+    margin: 5vh 0; /* Updated with container.css import. */
 }
 
 .country-link {

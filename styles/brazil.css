@@ -1,3 +1,5 @@
+@import url("container.css");
+
 :root {
     /* CSS HEX */
    --pacific-blue: #2ab7caff;
@@ -113,8 +115,7 @@ h1 {
 main {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    height: 50vh;
+    justify-content: space-evenly; /* Removed view height. */
 }
 
 .list-container {
@@ -132,7 +133,7 @@ main {
 }
 
 .list-item {
-    margin: 5em 0;
+    margin: 5vh 0; /* Updated with container.css import. */
 }
 
 .country-link {

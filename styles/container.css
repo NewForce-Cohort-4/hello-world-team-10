@@ -1,0 +1,18 @@
+main {
+    border: 1px solid var(--pacific-blue);
+    height: 75vh;
+    padding-bottom: 5vh;
+    background-color: var(--gainsboro);
+}
+
+.list-container h2 {
+    color: var(--fire-opal);
+    background-color: var(--orange-yellow-crayola);
+    padding: .5vh 0;
+    border: .5px solid var(--fire-opal);
+    border-radius: .25em;
+}
+
+.list-child {
+    background-color: var(--gainsboro);
+}
