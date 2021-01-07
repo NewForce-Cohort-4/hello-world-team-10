@@ -83,6 +83,16 @@ nav {
     background-color: var(--davys-grey);
     padding: 0 1em;
     color: var(--gainsboro);
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+
+.nav-list-child:hover {
+    background-color: var(--orange-yellow-crayola);
+    opacity: 1.0;
 }
 
 .name-head {
@@ -133,10 +143,11 @@ main {
 .country-link {
     text-decoration: none;
     color: var(--gainsboro);
+    padding: 0 1.0em;
 }
 
 a:hover {
-    color: var(--pacific-blue)
+    color: var(--pacific-blue);
 }
 
 footer {
