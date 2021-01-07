@@ -7,17 +7,31 @@
    --fire-opal: #f25f5cff;
    }
 
+h1, h2, h3 {
+    font-family: 'Cabin', sans-serif;
+}
+​
+p, li {
+    font-family: 'Kanit', sans-serif;
+}
 
  * {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-image: url(images/head-background);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+    /* margin: 16px; */
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
 }
 
 header {
-
+    width: 98vw;
+    border: 2px solid black;
 }
 
 .logo {
@@ -26,10 +40,14 @@ header {
 
 .head-container {
     display: flex;
+    width: auto;
+    /* border: 2px solid red; */
 }
 
 nav {
-    
+    width: 100vw;
+    /* border: 2px solid blue; */
+    /* background-color: var(--davys-grey); */
 }
 
 .nav-list {
@@ -39,21 +57,32 @@ nav {
     height: 100%;
     margin: 0%;
     width: 100%;
+    font-size: 2em;
+    justify-content: space-between;
+    /* border: 2 px dotted black; */
+    padding: 0%;
 }
 
 .nav-list-child {
     margin: 0 5em;
     align-items: flex-end;
     font-size: 1.5em;
+    margin: 0%;
+    justify-content: space-between;
+    background-color: var(--davys-grey);
+    padding: 0 1em;
+    color: var(--gainsboro);
 }
 
 .name-head {
+    display: flex;
     background-image: url(https://www.knau.org/sites/knau/files/201801/Canyon.jpg);
-    text-align: right;
-    text-decoration-color: var(--davys-grey);
+    align-items: flex-end;
+    justify-content: flex-end;
     height: 25vh;
-    opacity: ;
+    width: 100%;
     z-index: 1;
+    margin: 0%;
 }
 
 h1 {
@@ -61,6 +90,7 @@ h1 {
     color: var(--orange-yellow-crayola);
     z-index: 2;
     opacity: 1;
+    margin: 0%;
 }
 
 main {
@@ -74,6 +104,7 @@ main {
     width: 31vw;
     padding: 1em;
     height: 45vh;
+    text-align: center;
 }
 
 .list-child {
