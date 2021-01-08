@@ -25,6 +25,12 @@ p, li {
     background-position: center;
     margin: 0px;
 }
+/* Added width and background color to body element. */
+
+body {
+    width: 99vw;
+    background-color: var(--gainsboro);
+}
 
 h2 {
     font-size: 2em;
@@ -55,7 +61,7 @@ nav {
     align-items: flex-end;
     height: 100%;
     margin: 0%;
-    width: 100%;
+    width: 100vw;
     font-size: 1.5em;
     border: 2 px dotted black; 
     padding: 0%;
@@ -79,7 +85,7 @@ nav {
     margin: 0%;
     justify-content: space-between;
     background-color: var(--gainsboro);
-    padding: 0 1em;
+    padding: 0 1vw; /* Made padding width variable*/
     color: var(--gainsboro);
     -webkit-transition: all 250ms ease-in-out;
     -moz-transition: all 250ms ease-in-out;
@@ -109,6 +115,7 @@ h1 {
 }
 
 main {
+    width: 100%; /*Added variable width to main element*/
     display: flex;
     align-items: center;
     justify-content: space-evenly; /* Removed view height. */
