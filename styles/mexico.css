@@ -141,10 +141,13 @@ main {
     margin: 5em 0;
 }
 
+/* Updated nav-bar rollover */
+
 .country-link {
     text-decoration: none;
+    display: inline-block;
     color: var(--davys-grey);
-    padding: 0 1.0em;
+    padding:  7vh 1.0em;
 }
 
 a:hover {
