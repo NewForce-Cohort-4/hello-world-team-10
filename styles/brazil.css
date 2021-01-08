@@ -23,17 +23,12 @@ p, li {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    /* margin: 16px; */
+    margin: 0px;
 }
 
 h2 {
     font-size: 2em;
     text-align: center;
-}
-
-header {
-    width: 98vw;
-    border: 2px solid var(--gainsboro)
 }
 
 .logo {
@@ -151,12 +146,13 @@ a:hover {
 }
 
 footer {
-    margin-top: 20vh;
+    display: flex;
+    height: 10vh;
     font-size: 1.5em;
     font-family: 'Kanit', sans-serif;
     background-color: var(--gainsboro);
-    height: 5vh;
-    padding: .3em;
+    padding: 0 1.5em;
+    align-items: center;
 }
 
 .nav-list-child:hover {

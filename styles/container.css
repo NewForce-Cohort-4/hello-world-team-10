@@ -1,5 +1,13 @@
+:root {
+    /* CSS HEX */
+   --pacific-blue: #2ab7caff;
+   --orange-yellow-crayola: #fed766ff;
+   --gainsboro: #e6e6eaff;
+   --davys-grey: #50514fff;
+   --fire-opal: #f25f5cff;
+   }
+
 main {
-    border: 1px solid var(--pacific-blue);
     height: 75vh;
     padding-bottom: 5vh;
     background-color: var(--gainsboro);
@@ -15,4 +23,8 @@ main {
 
 .list-child {
     background-color: var(--gainsboro);
+}
+
+footer {
+    border-top: 2px solid var(--pacific-blue);
 }
