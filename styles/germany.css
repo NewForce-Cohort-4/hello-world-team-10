@@ -1,3 +1,5 @@
+@import url("container.css");
+
 :root {
     /* CSS HEX */
    --pacific-blue: #2ab7caff;
@@ -21,17 +23,12 @@ p, li {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    /* margin: 16px; */
+    margin: 0;
 }
 
 h2 {
     font-size: 2em;
     text-align: center;
-}
-
-header {
-    width: 98vw;
-    border: 2px solid var(--gainsboro)
 }
 
 .logo {
@@ -114,8 +111,7 @@ h1 {
 main {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    height: 50vh;
+    justify-content: space-evenly; /* Removed view height. */
 }
 
 .list-container {
@@ -133,7 +129,7 @@ main {
 }
 
 .list-item {
-    margin: 5em 0;
+    margin: 5vh 0; /* Updated with container.css import. */
 }
 
 /* Updated nav-bar rollover */
@@ -154,11 +150,14 @@ a:hover {
     opacity: 1.0;
 }
 
+/* Updated footer with display flex and height/padding. */
+
 footer {
-    margin-top: 20vh;
+    display: flex;
+    height: 10vh;
     font-size: 1.5em;
     font-family: 'Kanit', sans-serif;
     background-color: var(--gainsboro);
-    height: 5vh;
-    padding: .3em;
+    padding: 0 1.5em;
+    align-items: center;
 }
