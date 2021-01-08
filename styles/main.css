@@ -43,6 +43,7 @@ header {
     width: auto;
     /* border: 2px solid red; */
     background-color: var(--gainsboro);
+    align-items: center;
 }
 
 nav {
@@ -71,7 +72,7 @@ nav {
     margin: 0%;
     align-items: flex-end;
     justify-content: space-between;
-    background-color: var(--davys-grey);
+    background-color: var(--gainsboro);
 }
 
 .nav-list-child {
@@ -80,7 +81,7 @@ nav {
     font-size: 1.5em;
     margin: 0%;
     justify-content: space-between;
-    background-color: var(--davys-grey);
+    background-color: var(--gainsboro);
     padding: 0 1em;
     color: var(--gainsboro);
     -webkit-transition: all 250ms ease-in-out;
@@ -105,7 +106,7 @@ nav {
 h1 {
     font-size: 4.5em;
     font-style: italic;
-    color: var(--orange-yellow-crayola);
+    color: var(--davys-grey);
     z-index: 2;
     opacity: 1;
     margin: 0%;
@@ -139,7 +140,7 @@ main {
 
 .country-link {
     text-decoration: none;
-    color: var(--gainsboro);
+    color: var(--davys-grey);
     padding:  0 1.0em;
 }
 
