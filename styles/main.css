@@ -138,7 +138,7 @@ main {
 }
 
 .list-item {
-    margin: 5vh 0; /* Updated with container.css import. */
+    margin: 5vh 0; /* Added import to container.css with additional styling. */
 }
 
 /* Updated nav-bar rollover */
